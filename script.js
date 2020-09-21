@@ -24,13 +24,14 @@ let filmList = document.querySelector(".film__list"),
     newList = ["Don-Don", "Raduga", "Star Wars"];
 
  
-let NewFilm = document.createElement("li");
-NewFilm.className = "film";
+
 
 
 
 btn.addEventListener("click", (event) => {
      event.preventDefault();
+     let NewFilm = document.createElement("li");
+     NewFilm.className = "film";
      filmList.innerHTML += `<li class="film"> ${inp.value} </li>`;
      form.reset();
 });
