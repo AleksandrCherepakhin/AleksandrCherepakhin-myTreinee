@@ -23,13 +23,11 @@ let filmList = document.querySelector(".film__list"),
     inp = document.getElementById("three"),
     newList = ["Don-Don", "Raduga", "Star Wars"];
 
-
-
  
 let NewFilm = document.createElement("li");
 NewFilm.className = "film";
 
- 
+
 
 btn.addEventListener("click", (event) => {
      event.preventDefault();
