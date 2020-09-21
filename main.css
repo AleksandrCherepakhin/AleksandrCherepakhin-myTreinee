@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+textarea {
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.but {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(40, 196, 92);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.but:active, 
+.but:focus {
+    outline: none;
+}
+ 
+
+.butt {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(247, 214, 30);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 25px;
+} 
+
+.butt:active, 
+.butt:focus {
+    outline: none;
+}
